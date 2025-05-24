@@ -1,4 +1,4 @@
-## 📣 **4. Alert Log**
+## 📣 **Alert Log**
 
 The **Alert Log** is a critical diagnostic file in Oracle Database that provides essential insights into the health and functioning of the database instance.
 
