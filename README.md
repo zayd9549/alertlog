@@ -1,4 +1,5 @@
-## 📣 **Alert Log**
+
+## 📣 **4. Alert Log**
 
 The **Alert Log** is a critical diagnostic file in Oracle Database that provides essential insights into the health and functioning of the database instance.
 
@@ -43,7 +44,7 @@ The alert log captures:
 #### ➤ For Oracle 12c and above:
 
 ```sql
-sql> select value from v$diag_info where name = 'Diag Trace';
+SQL> SELECT value FROM v$diag_info WHERE name = 'Diag Trace';
 ```
 
 * 📂 This query returns the **trace directory path**, where the alert log is located.
@@ -88,7 +89,7 @@ This view provides the **location details** of various ADR folders, including:
 * 🧪 `Health Monitor` – Location of health checker logs.
 
 ```sql
-select * from v$diag_info;
+SQL> SELECT * FROM v$diag_info;
 ```
 
 ---
